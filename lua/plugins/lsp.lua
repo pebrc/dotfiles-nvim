@@ -29,6 +29,7 @@ return {
             },
             staticcheck = true,
             gofumpt = true,
+            buildFlags = { "-tags=e2e" },
           },
         },
       })
